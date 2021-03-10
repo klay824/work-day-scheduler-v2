@@ -20,19 +20,20 @@ $(".time-block").each(function() {
     }
 })
 
-var task9 = document.querySelector(".description9");
-var task10 = document.querySelector(".description10");
-var task11 = document.querySelector(".description11");
-var task12 = document.querySelector(".description12");
-var task1 = document.querySelector(".description1");
-var task2 = document.querySelector(".description2");
-var task3 = document.querySelector(".description3");
-var task4 = document.querySelector(".description4");
-var task5 = document.querySelector(".description5");
+var task9 = $(".description9");
+var task10 = $(".description10");
+var task11 = $(".description11");
+var task12 = $(".description12");
+var task1 = $(".description1");
+var task2 = $(".description2");
+var task3 = $(".description3");
+var task4 = $(".description4");
+var task5 = $(".description5");
 
 // 9am saving to local storage
 function save9AM () {  
-    localStorage.setItem("task9", JSON.stringify(task9.value));
+    var input9 = task9.val().trim();
+    localStorage.setItem("task9", JSON.stringify(input9));
 }
 
 // to write to the text area from local storage
@@ -48,7 +49,8 @@ $("#btn9").click(write9am);
 
 // 10am saving to local storage
 function save10AM () {
-    localStorage.setItem("task10", JSON.stringify(task10.value));
+    var input10 = task10.val().trim();
+    localStorage.setItem("task10", JSON.stringify(input10));
 }
 
 // to write to the text area from local storage
@@ -63,7 +65,8 @@ $("#btn10").click(write10am);
 
 // 11am saving to local storage
 function save11AM () {
-    localStorage.setItem("task11", JSON.stringify(task11.value));
+    var input11 = task11.val().trim();
+    localStorage.setItem("task11", JSON.stringify(input11));
 }
 
 // to write to the text area from local storage
@@ -79,7 +82,8 @@ $("#btn11").click(write11am);
     
 // 12pm saving to local storage
 function save12PM () {
-    localStorage.setItem("task12", JSON.stringify(task12.value));
+    var input12 = task12.val().trim();
+    localStorage.setItem("task12", JSON.stringify(input12));
 }
 
 // to write to the text area from local storage
@@ -94,7 +98,8 @@ $("#btn12").click(write12pm);
 
 // 1pm saving to local storage
 function save1PM () {
-    localStorage.setItem("task1", JSON.stringify(task1.value));
+    var input1 = task1.val().trim();
+    localStorage.setItem("task1", JSON.stringify(input1));
 }
 
 // to write to the text area from local storage
@@ -109,7 +114,8 @@ $("#btn1").click(write1pm);
 
 // 2pm saving to local storage
 function save2PM () {
-    localStorage.setItem("task2", JSON.stringify(task2.value));
+    var input2 = task2.val().trim();
+    localStorage.setItem("task2", JSON.stringify(input2));
 }
 
 // to write to the text area from local storage
@@ -124,7 +130,8 @@ $("#btn2").click(write2pm);
 
 // 3pm saving to local storage
 function save3PM () {
-    localStorage.setItem("task3", JSON.stringify(task3.value));
+    var input3 = task3.val().trim();
+    localStorage.setItem("task3", JSON.stringify(input3));
 }
 
 // to write to the text area from local storage
@@ -139,7 +146,8 @@ $("#btn3").click(write3pm);
 
 // 4pm saving to local storage
 function save4PM () {
-    localStorage.setItem("task4", JSON.stringify(task4.value));
+    var input4 = task4.val().trim();
+    localStorage.setItem("task4", JSON.stringify(input4));
 }
 
 // to write to the text area from local storage
@@ -154,7 +162,8 @@ $("#btn4").click(write4pm);
 
 // 5pm saving to local storage
 function save5PM () {
-    localStorage.setItem("task5", JSON.stringify(task5.value));
+    var input5 = task5.val().trim();
+    localStorage.setItem("task5", JSON.stringify(input5));
 }
 
 // to write to the text area from local storage
