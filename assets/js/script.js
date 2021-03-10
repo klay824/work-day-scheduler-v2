@@ -172,4 +172,4 @@ function clearSchedule () {
     location.reload();
 }
 
-$(".clear").click(clearSchedule);
+$(".clearBtn").click(clearSchedule);
