@@ -69,3 +69,16 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
+.clearBtn {
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: #06AED5;
+  font-size: 20px;
+  color: white;
+}
+
+.clearBtn:hover {
+  font-size: 30px;
+  transition: all .3s ease-in-out;
+}
