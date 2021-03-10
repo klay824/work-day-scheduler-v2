@@ -34,7 +34,7 @@ var task5 = $(".description5");
 
 
 $(".time-block").each(function() {
-    $("button").click(function(){
+    $(":button").click(function(){
         var input9 = task9.val().trim();
         localStorage.setItem("task9", JSON.stringify(input9));
 
