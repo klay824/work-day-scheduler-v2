@@ -81,9 +81,7 @@ $(":button").click(function(){
         $(".description5").val(localStorage.getItem("task5"));
 })
 
-function clearSchedule () {
+$(".clearBtn").click(function() {
     localStorage.clear();
     location.reload();
-}
-
-$(".clearBtn").click(clearSchedule);
+})
