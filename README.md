@@ -27,3 +27,9 @@ Please follow [this link](https://klay824.github.io/work-day-scheduler-v2/) to v
 
 ## GIF Demonstration of Application
 ![](assets/gifs/scheduler-demo-3.gif)
+
+## Screenshots
+![](assets/images/screenshot-1.png)
+![](assets/images/screenshot-2.png)
+![](assets/images/screenshot-3.png)
+![](assets/images/screenshot-4.png)
