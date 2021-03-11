@@ -15,7 +15,6 @@ $(document).ready(function(){
 var currentDay = moment().format("dddd, MMMM Do");
 $("#currentDay").text(currentDay);
 
-
 // sets the current hour equal to currentTime variable
 var currentTime = moment().hour();
 
