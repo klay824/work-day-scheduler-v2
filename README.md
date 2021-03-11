@@ -26,4 +26,4 @@ Please follow [this link](https://klay824.github.io/work-day-scheduler-v2/) to v
 * Our Awesome TAs Andrew and Cody
 
 ## GIF Demonstration of Application
-![](assets/gifs/scheduler-demo-2.gif)
+![](assets/gifs/scheduler-demo-3.gif)
