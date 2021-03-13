@@ -42,7 +42,7 @@ var task4 = $(".description4");
 var task5 = $(".description5");
 
 // Jquery click event save user input to local storage, then gets it out of storage and writes it to the text area
-$(":button").click(function(){
+$(".saveBtn").click(function(){
         var input9 = task9.val().trim();
         localStorage.setItem("task9", input9);
         $(".description9").val(localStorage.getItem("task9"));
